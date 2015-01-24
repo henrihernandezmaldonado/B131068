@@ -1,0 +1,81 @@
+<html>
+<head>  </head>
+<body>
+
+
+<form action="insertar.php" method="post">
+
+<center>
+<table border="1">
+	<tr>
+	<th colspan="2">NUEVO ALUMNO</th>
+	</tr>
+
+	
+	<tr>
+	<td> MATRICULA:<input type="text" size="10" maxlength="7"><br> </td>
+	<td> FECHA NAC: <input type="date" name="fecha"></td>
+	</tr>
+	
+	
+	<tr>
+	<td>  NOMBRE:<input type="text" size="10" maxlength="10"><br></td>
+	<td>  EDAD: <input type="number" name="num" min="0" max="60"></td>
+	</tr>
+	
+	
+
+	<tr>
+	<td> APELLIDO PAT:<input type="text" size="10" maxlength="10"><br></td>
+	<td>MUNICIPIO:<select name="MUNICIPIO">	
+		<option value="1">TAPACHULA </option>
+		<option value="2" >HUIXTLA</option>
+		<option value="3"> CD. HIDALGO</option>           
+		<option value="4" >TUXTLA CHICO</option>
+		<option value="5" >CACAHOATAN </option>
+	</select>
+	</tr>
+	
+	
+
+	<tr>
+	<td> APELLIDO MAT:<input type="text" size="10" maxlength="10"><br></td>
+	<td> FOTOGRAFIA: <input type="file"="examinar"></td>
+	</tr>
+
+	
+
+	
+	<tr>
+
+	<th colspan="2"><input type="submit" value="registrar"></th>
+	</tr>
+
+
+	
+	
+	
+	
+
+	
+
+	
+	
+</center>
+
+	
+
+
+</table>
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
