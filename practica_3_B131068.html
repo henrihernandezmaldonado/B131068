@@ -1,0 +1,44 @@
+<html>
+<head>
+
+<script>
+	
+		function  pagar(){
+			var precio = parseInt(document.f1.caja1.value);
+			var cantidad = parseInt(document.f1.caja2.value);
+			var subtotal = cantidad* precio;
+			var iva = subtotal * 1.16;
+			document.f1.res.value='$'+iva;
+			
+			
+			}
+</script>
+
+</head>
+<body>
+
+
+
+<br><br>
+<form name="f1">
+  Producto:<input type="text" name="caja0" size="10"><br><br>
+  Precio:<input type="text" name="caja1" size="10"><br><br>
+  Cantidad:<input type="text" name="caja2" size="10"><br><br>
+  
+  El total a pagar:<input type="text" name="res" size="10">
+  
+  
+  </form>
+  
+
+<button onclick="pagar();">Calcular pago</button><br>
+
+
+
+
+
+  
+
+
+</body>
+</html>
